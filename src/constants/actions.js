@@ -1,4 +1,4 @@
-const actions = ['SAVE_USER_NAME', 'INITIAL_LOADING', 'SEND_FEEDBACK'];
+const actions = ['SAVE_USER_NAME', 'INITIAL_LOADING'];
 
 module.exports = actions.reduce((acc, action) => {
   const successAction = `${action}_SUCCESS`;

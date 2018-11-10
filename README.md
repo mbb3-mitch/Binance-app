@@ -1,13 +1,7 @@
-# MUISCRR-boilerplate
+# Personalized MUISCRR-boilerplate
 
 Material-UI Styled Components React Redux boilerplate with __offline__ mode support can be used for creating single-page applications with mentioned technologies stack. Mobile and desktop versions are supported.
-
-# Demo
-
-[You can find Christmas Demo here!:christmas_tree::santa:](http://ec2-54-174-9-9.compute-1.amazonaws.com:3000/)
-- desktop version :computer:
-- mobile version :iphone:
-- offline mode :up:
+(Removed unnecessary dependencies, pages, and features, updated package.json)
 
 ## Technologies
 
@@ -34,14 +28,14 @@ Please, be sure of using latest version of Node.js `8.*.*` and npm `5.*.*` for c
 
 - For running in development
 ```
-git clone https://github.com/yankouskia/MUISCRR-boilerplate.git
+git clone https://github.com/mbb3-mitch/MUISCRR-boilerplate.git
 npm install
 npm run dev
 ```
 
 - For running in production
 ```
-git clone https://github.com/yankouskia/MUISCRR-boilerplate.git
+git clone https://github.com/mbb3-mitch/MUISCRR-boilerplate.git
 npm install
 npm start
 ```
@@ -65,7 +59,3 @@ npm start
 - `npm run lint` - run lint checker
 - `npm run prettier` - run prettier for beautifying code
 - `npm run lintfix` - run linter in fix mode for editing errors, which it is able to
-
-## Contribution
-
-Feel free to create issues and PRs :smiley:

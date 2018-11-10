@@ -1,2 +1,2 @@
-export const AUTHOR_MAIL = 'aleksandr.yankovskiy@gmail.com';
-export const AUTHOR_GITHUB = 'https://github.com/yankouskia';
+export const AUTHOR_MAIL = 'm.burrbedard@gmail.com';
+export const AUTHOR_GITHUB = 'https://github.com/mbb3-mitch';

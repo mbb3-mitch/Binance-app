@@ -7,7 +7,6 @@ import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import HomeIcon from 'material-ui-icons/Home';
-import FeedbackIcon from 'material-ui-icons/Feedback';
 import CodeIcon from 'material-ui-icons/Code';
 
 import { AUTHOR_GITHUB } from '../constants/contact-info';
@@ -45,12 +44,6 @@ export default class NavigationPanel extends React.PureComponent {
                 <HomeIcon />
               </ListItemIcon>
               <ListItemText primary="Home" />
-            </ListItem>
-            <ListItem button component={Link} to="/feedback">
-              <ListItemIcon>
-                <FeedbackIcon />
-              </ListItemIcon>
-              <ListItemText primary="Feedback" />
             </ListItem>
           </List>
           <Divider />

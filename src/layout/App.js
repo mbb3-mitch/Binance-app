@@ -10,8 +10,7 @@ const Container = styled.div`
   min-height: 100vh;
   overflow: hidden;
   height: 100vh;
-  background: url('/statics/background.jpg') no-repeat center center;
-  background-size: cover;
+  background-color: #ffffff;
 
   & ${ContentContainer} {
     flex-grow: 1;

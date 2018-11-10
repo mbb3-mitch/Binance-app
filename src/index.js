@@ -9,7 +9,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import { MuiThemeProvider } from 'material-ui/styles';
 
 import Main from './pages/Main';
-import Feedback from './pages/Feedback';
 import HiddenFeatures from './pages/HiddenFeatures';
 
 import configureStore from './store/configure';
@@ -27,7 +26,6 @@ const Routes = () => (
     <Route component={HiddenFeatures} />
     <Switch>
       <Route path="/" exact component={Main} />
-      <Route path="/feedback" component={Feedback} />
     </Switch>
   </div>
 );

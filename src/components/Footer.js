@@ -50,7 +50,8 @@ export default class Footer extends React.PureComponent {
             button
             onClick={() => window.open(AUTHOR_GITHUB, '_blank')}
           >
-            <ListItemText primary="© 2017, Yankouskia Aliaksandr" />
+            {' '}
+            <ListItemText primary="© 2018, Mitchell Burr Bedard" />
           </ListItemContainer>
         </ListContainer>
         <ListContainer>
@@ -58,7 +59,7 @@ export default class Footer extends React.PureComponent {
             button
             onClick={() =>
               window.open(
-                `mailto:${AUTHOR_MAIL}?subject=Question&body=Hi, Alex!`,
+                `mailto:${AUTHOR_MAIL}?subject=Question&body=Hi, Mitchell!`,
               )
             }
           >
