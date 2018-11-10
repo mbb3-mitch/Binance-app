@@ -25,7 +25,6 @@ Material-UI Styled Components React Redux boilerplate with __offline__ mode supp
 - [Husky](https://github.com/typicode/husky) Git hooks made easy
 - [Prettier](https://prettier.io) Opinionated code formatter
 - [Webpack](https://webpack.js.org/) Bundler
-- [Cypress](https://www.cypress.io/) Fast, easy and reliable testing for anything that runs in a browser.
 
 ## Environment
 
